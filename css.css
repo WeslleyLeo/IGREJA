@@ -81,13 +81,13 @@ footer {
   
       .overlay-text {
         position: absolute; /* Posiciona o texto de forma absoluta */
-        top: 50%;         /* Posiciona verticalmente no centro da imagem */
-        left: 50%;        /* Posiciona horizontalmente no centro da imagem */
+        top: 285px;         /* Posiciona verticalmente no centro da imagem */
+        left: 200px;        /* Posiciona horizontalmente no centro da imagem */
         transform: translate(-50%, -50%); /* Corrige a deslocalização do texto */
         z-index: 1;
         /* Adicione estilos de texto, como cor, tamanho, etc. */
         color: white; /* Cor do texto */
-        font-size: 100%; /* Tamanho da fonte */
+        font-size: 85%; /* Tamanho da fonte */
       }
 
       img {
