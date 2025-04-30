@@ -95,6 +95,7 @@ footer {
         /* Adicione estilos de texto, como cor, tamanho, etc. */
         color: white; /* Cor do texto */
         font-size: 100%; /* Tamanho da fonte */
+        font-size: 12px;
       }
 
       
