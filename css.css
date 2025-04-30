@@ -96,6 +96,7 @@ footer {
         color: white; /* Cor do texto */
         font-size: 100%; /* Tamanho da fonte */
         font-size: 12px;
+        -webkit-text-stroke: 0.2px black;
       }
 
       
