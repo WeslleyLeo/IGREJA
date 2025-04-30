@@ -75,25 +75,28 @@ footer {
 
     .image-container {
         position: relative; /* Define a imagem como um contexto de posicionamento */
-        width: 300px;
-        height: 200px; 
+        width: 100%;
+        height: 100%; 
       }
+
+      .image-container img {
+        display: block; 
+        width: 100%;
+        height: 100%; 
+        object-fit: cover;       
+    }
   
       .overlay-text {
         position: absolute; /* Posiciona o texto de forma absoluta */
-        top: 285px;         /* Posiciona verticalmente no centro da imagem */
-        left: 200px;        /* Posiciona horizontalmente no centro da imagem */
+        top: 50%;         /* Posiciona verticalmente no centro da imagem */
+        left: 45%;        /* Posiciona horizontalmente no centro da imagem */
         transform: translate(-50%, -50%); /* Corrige a deslocalização do texto */
         z-index: 1;
         /* Adicione estilos de texto, como cor, tamanho, etc. */
         color: white; /* Cor do texto */
-        font-size: 85%; /* Tamanho da fonte */
+        font-size: 100%; /* Tamanho da fonte */
       }
 
-      img {
-        display: block; 
-        width: 100%;
-        height: 100%;        
-    }
+      
 
        /*IMAGEM PRINCIPAL*/
